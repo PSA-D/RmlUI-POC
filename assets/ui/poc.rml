@@ -1,0 +1,43 @@
+<rml>
+<head>
+    <title>RmlUi POC</title>
+    <style>
+        body {
+            font-family: DejaVu Sans;
+            font-size: 18px;
+            color: white;
+            background-color: #202030;
+            width: 400px;
+            height: 300px;
+            padding: 20px;
+        }
+
+        #label {
+            margin-bottom: 20px;
+        }
+
+        #panel {
+            padding: 15px;
+            background-color: #303050;
+        }
+
+        button {
+            display: block;
+            width: 140px;
+            padding: 10px;
+            background-color: #3060c0;
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: #4080e0;
+        }
+    </style>
+</head>
+<body>
+    <div id="panel">
+        <p id="label">Hello RmlUi</p>
+        <button id="startButton">Start</button>
+    </div>
+</body>
+</rml>

@@ -1,5 +1,7 @@
 {
-    "name": "project-systems-programming",
+    "name": "rmlui-poc",
     "version": "0.1.0",
-    "dependencies": []
+    "dependencies": [
+        "rmlui"
+    ]
 }
